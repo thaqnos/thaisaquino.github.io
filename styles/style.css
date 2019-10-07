@@ -1,0 +1,29 @@
+a:hover {
+    text-decoration: none;
+}
+
+.bg-roxo {
+    background-color: #7e509c;
+}
+
+.img-carousel {
+    height: 65vh;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+
+.margin-right {
+    margin-right: 30px;
+}
+
+.social-media {
+    color: #7e509c;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-black:hover{
+    color: #7e509c;
+}
