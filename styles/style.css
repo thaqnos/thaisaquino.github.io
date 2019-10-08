@@ -6,6 +6,10 @@ a:hover {
     background-color: #7e509c;
 }
 
+.bg-rosa {
+    background-color: #c29ebe;
+}
+
 .img-carousel {
     height: 62vh;
     object-fit: cover;
