@@ -7,7 +7,7 @@ a:hover {
 }
 
 .img-carousel {
-    height: 65vh;
+    height: 62vh;
     object-fit: cover;
     object-position: 0 30%;
 }
@@ -26,4 +26,8 @@ a:hover {
 
 .color-black:hover{
     color: #7e509c;
+}
+
+.tamanho-fonte {
+    font-size: 30px;
 }
