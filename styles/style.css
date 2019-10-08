@@ -24,10 +24,20 @@ a:hover {
     color: black;
 }
 
-.color-black:hover{
+.color-black:hover {
     color: #7e509c;
 }
 
 .tamanho-fonte {
     font-size: 30px;
+}
+
+.tamanho-card {
+    width: 18rem;
+}
+
+.imagem-card {
+    height: 50vh;
+    object-fit: cover;
+    object-position: top;
 }

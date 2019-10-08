@@ -32,18 +32,20 @@
             </div>
         </div>
     </nav>
-
     <header>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 img-carousel" src="./assets/images/sample-photo-01.jpg" alt="Primeiro Slide">
+                    <img class="d-block w-100 img-carousel" src="./assets/images/sample-photo-01.jpg"
+                        alt="Primeiro Slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-carousel" src="./assets/images/sample-photo-02.jpg" alt="Segundo Slide">
+                    <img class="d-block w-100 img-carousel" src="./assets/images/sample-photo-02.jpg"
+                        alt="Segundo Slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-carousel" src="./assets/images/sample-photo-03.jpg" alt="Terceiro Slide">
+                    <img class="d-block w-100 img-carousel" src="./assets/images/sample-photo-03.jpg"
+                        alt="Terceiro Slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -55,7 +57,7 @@
                 <span class="sr-only">Próximo</span>
             </a>
         </div>
-        
+
         <section class="py-4">
             <div class="container text-center">
                 <h1 class="font-weight-bold">Thaís Aquino</h1>
@@ -77,10 +79,9 @@
             </div>
         </section>
     </header>
-
     <section class="py-4 bg-roxo text-white text-center">
-        <div class="container d-flex flex-column flex-lg-row ">
-            <div class="d-flex justify-content-around flex-wrap col-lg-6">
+        <div class="container d-flex flex-column flex-lg-row col-lg-9">
+            <div class="d-flex justify-content-around flex-wrap col-lg-5">
                 <h3 class="mb-4">Habilidades</h3>
                 <div class="container">
                     <div class="row">
@@ -140,27 +141,123 @@
             </section>
         </div>
     </section>
-    
-    <!-- cards - meus projetos -->
-    <section>
-        <h3>Portfólio</h3>
-        <!-- cards -->
-        <!-- modais -->
-        <img src="./assets/images/modal-01.jpg" alt="">
-        <img src="./assets/images/modal-02.jpg" alt="">
-        <img src="./assets/images/modal-03.jpg" alt="">
+
+    <section class="container py-4 text-center">
+        <h3 class="pb-4">Portfólio</h3>
+        <div class="row justify-content-between">
+
+            <!-- card 1 -->
+            <div class="card tamanho-card">
+                <img src=" ./assets/images/modal-01.png" class="card-img-top imagem-card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 01</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn text-white bg-roxo" data-toggle="modal" data-target="#modal01">Veja mais</a>
+                </div>
+            </div>
+
+            <!--- modal card 1 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal01">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Projeto 01</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Texto do corpo do modal, é aqui.</p>
+                            <img src=" ./assets/images/modal-01.png" class="card-img-top imagem-card" alt="...">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn bg-roxo text-white">Visitar site</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card tamanho-card">
+                <img src=" ./assets/images/modal-02.png" class="card-img-top imagem-card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lista de afazeres</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn text-white bg-roxo" data-toggle="modal" data-target="#modal02">Veja mais</a>
+                </div>
+            </div>
+
+            <!--- modal card 2 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal02">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Título do modal</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Texto do corpo do modal, é aqui.</p>
+                            <img src=" ./assets/images/modal-02.png" class="card-img-top imagem-card" alt="...">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn bg-roxo text-white">Visitar site</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card tamanho-card">
+                <img src=" ./assets/images/modal-03.png" class="card-img-top imagem-card" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto M de Maravilhosa</h5>
+                    <p class="card-text">Projeto de uma página criado com HTML e CSS.</p>
+                    <a href="#" class="btn text-white bg-roxo" data-toggle="modal" data-target="#modal03">Veja mais</a>
+                </div>
+            </div>
+
+            <!-- modal card 3 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal03">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Projeto M de Maravilhosa</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Texto do corpo do modal, é aqui.</p>
+                            <img src=" ./assets/images/modal-03.png" class="card-img-top imagem-card" alt="...">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn bg-roxo text-white">Visitar site</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
-    
+
     <!-- footer -->
     <footer>
         <small>Desenvolvido com Bootstrap por Nome enquanto aluna da<span><a href="http://reprograma.com.br/index.html"
                     target="_blank">{reprograma}</a></span> 2019</small>
     </footer>
-        
-        <!-- adicionar jQuery aqui! -->
-        <!-- adicionar js do bootstrap aqui! -->
-        <script src="./js/jquery-3.4.1.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
-        <script src="https://kit.fontawesome.com/d47ee33e22.js" crossorigin="anonymous"></script>
-</body>    
+
+    <!-- adicionar jQuery aqui! -->
+    <!-- adicionar js do bootstrap aqui! -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d47ee33e22.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
