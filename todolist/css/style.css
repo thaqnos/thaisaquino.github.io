@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteudo__conteiner{
+    width: 350px;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.conteudo__conteiner-titulo {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.conteudo__conteiner-input{
+    width: 315px;
+    border: 1px solid #afaeae;
+    height: 100px;
+    padding: 10px;
+}
+
+.conteudo__conteiner-input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+.conteudo__conteiner-call-to-action {
+    width: 132px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ba7af8;
+    padding: 5px;
+    margin-right: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#desativado {
+    color: white;
+}
+
+.conteudo__conteiner-call-to-action:hover{
+    background-color: #cda3f5;
+}
+
+.print-div {
+    padding: 10px;
+    border-bottom: 1px solid #afaeae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.print-div__remove {
+    display: none;
+}
+
+.print-comentario {
+    text-align: left;
+    font-size: 12px;
+    cursor: pointer;
+    width: 130px;
+    word-break: break-word;
+}
+
+/* .print-comentario:before{
+    content: '';
+    display: flex;
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #AB94B0;
+    transition: background .2s ease-in;
+} */
+
+.print-comentario__concluido {
+    color: grey;
+    text-decoration: line-through;
+    cursor: pointer;
+    font-size: 12px;  
+    width: 130px;
+    word-break: break-word;
+}
+
+.print-salvar{
+    color: red;
+}
+
+.print-span {
+    color: rgb(53, 53, 53);    
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.print-span__remove{
+    display: none;
+}
+
+.print-texto-erro::placeholder {
+    color: red;
+    font-size: 15px;    
+    text-align: center;
+}
+
+.botoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #afaeae;    
+}
+
+.btn-apaga-tudo {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-apaga-tudo::before{
+    cursor: pointer;
+    content: "";
+    background-color: red;
+    display: block;
+    height: 20px;
+    width: 20px;
+    border: solid 1px #afaeae00;
+    border-radius: 50%;
+    margin: -20px;
+    margin-top: 4px;
+    margin-left: -29px;
+    font-size: 12px;
+}
+
+.btn-marca-tudo-como-feito{
+    font-size: 12px;
+    cursor: pointer;    
+}
+
+.btn-marca-tudo-como-feito::before{
+    cursor: pointer;
+    background-color: green;
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+    border: solid 1px #afaeae00;
+    border-radius: 50%;
+    margin: -20px;
+    margin-top: 4px;
+    margin-left: -29px;
+    font-size: 12px;   
+}
+
+.editar-tarefa__p {
+    color: rgb(99, 99, 99);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.editar-tarefa__p-ativado{
+    color: #ff0000;
+}
+.editar-tarefa__div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editar-tarefa__input {
+    border: 1px solid #afaeae;
+    background-color: #d4d4d4; 
+    padding: 10px;
+    width: 100%;
+}
+
+.print-comentario__remove {
+    display: none;
+}
+
+.div-opcoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+.input-principal {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+select {
+    cursor: pointer;
+    border: none;
+    width: 90%;
+    border-radius: 5px;
+    color: black;
+    padding: 4px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #ba7af8;
+}
+
+select > option {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.etiquetas {
+    font-weight: bold;
+    color: #ba7af8;
+}
+

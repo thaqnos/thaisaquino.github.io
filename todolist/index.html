@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">   
+    <script defer src="js/script.js"></script>
+    <title>Adicione uma tarefa </title>
+</head>
+<body>
+    <main class="conteudo">
+        <form class="conteudo__conteiner" id="conteudoConteiner">
+            <h1 class="conteudo__conteiner-titulo">
+                Adicione uma tarefa
+            </h1>
+            <div class="input-principal">
+                <input type="text" class="conteudo__conteiner-input" placeholder="Nova tarefa" id="inputTarefa">
+            </div>
+            <div class="div-opcoes">
+            <label class="opcoes" for="opcoes-etiqueta">
+                <select name="opcoes-etiqueta" id="etiqueta">
+                    <option id="desativado" checked disabled value="selecionaEtiqueta">Selecione uma etiqueta</option>
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="compras">Compras</option>
+                    <option value="contas">Contas</option>
+                    <option value="moradia">Moradia</option>
+                </select>
+            </label>
+            <button class="conteudo__conteiner-call-to-action" id="btnAdicionaTarefa">Adicionar</button>
+            </div>
+            <div class="botoes" id="botoesLimpaApaga">
+                <p class="btn-marca-tudo-como-feito" id="btnFeito">Tudo feito</p>
+                <p class="btn-apaga-tudo" id="btnApaga">Apaga tudo</p>
+            </div>
+            <div id="drag"></div>
+        </form>
+    </main>
+</body>
+</html>
