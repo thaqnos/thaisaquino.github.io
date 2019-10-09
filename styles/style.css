@@ -45,3 +45,9 @@ a:hover {
     object-fit: cover;
     object-position: top;
 }
+
+.modal-img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
