@@ -1,0 +1,88 @@
+.container{
+    @include display-flex(center,center);
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+} 
+
+.titulo-sobre {
+    @include display-flex(center,center);
+    @include titulo-sobre($corAzul,1.5rem,$corAmareloClaro);
+    width: 40%;
+    text-align: center;
+}
+h3 {
+    @include display-flex(center,center);
+    text-align: center;
+}
+
+.sobre {
+    @include display-flex(center,center);
+}
+.paragrafo-sobre-introducao{
+    @include paragrafo-sobre($corAzul,1.5rem);
+    width: 70%;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #01008C;
+    padding: 20px;
+    border: solid 2px rgba(255,209,6,0.2);
+}
+
+
+.paragrafo-sobre {
+    @include paragrafo-sobre($corAzul,1rem);
+    width: 70%;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.paragrafo-sobre-autora {
+    @include paragrafo-sobre($corAzul,1rem);
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.historia {
+    @include display-flex(center,center);
+    flex-direction: column;
+    background-color: $corAmareloClaro;
+    width: 70%;
+}
+
+.historia-imagem {
+    @include display-flex(center,center);
+    width: 150px;
+    height: 130px;
+    background-color: $corAmarelo;
+    position: relative;
+    top: 65px;
+}
+
+.fundadora-imagem{
+    width:110px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.historia-texto{
+    width: 70vw;
+    margin-top: 70px;
+}
+// --- MEDIA QUERY ---
+@media (min-width: 768px) {
+    .historia {
+        flex-direction: row;
+    }
+    .historia-imagem {
+        top: 20px;
+    }
+    .historia-texto {
+        width: 60vw;
+        margin-top: 0px;
+        padding-left: 45px;
+        padding-top: 30px;
+    }
+} 
+

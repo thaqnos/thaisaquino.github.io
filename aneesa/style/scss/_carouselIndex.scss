@@ -1,0 +1,17 @@
+.div-carrossel{
+    margin-top: 30px;
+    @include display-flex(center,center);
+}
+
+.tamanho-imagem{
+    height: 370px;
+    width: 70%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 320px){
+    .tamanho-imagem {
+        width: 100%
+    }
+}

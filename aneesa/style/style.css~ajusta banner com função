@@ -1,0 +1,116 @@
+/*Cores*/
+/*Fontes*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+@font-face {
+  font-family: 'OdeToIdleGaming';
+  src: url("./../resources/fonts/OdeToIdleGaming.otf"); }
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.imagem-logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px; }
+  .imagem-logo img {
+    width: 400px;
+    margin-top: -20px; }
+
+.links-navbar {
+  width: 100%;
+  margin-top: -25px;
+  margin-bottom: 20px; }
+  .links-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px; }
+    .links-navbar ul li {
+      list-style: none;
+      font-family: "OdeToIdleGaming";
+      margin-right: 10px; }
+      .links-navbar ul li a {
+        color: #01008C;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 12px; }
+
+.links-navbar > ul > li > a:hover {
+  background-color: #FFD106;
+  padding: 12px;
+  transition: 1s; }
+
+.conteiner {
+  width: 70%; }
+
+.conteiner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: solid 1px #01008C; }
+
+.social-media {
+  font-size: 20px; }
+
+@media (max-width: 768px) {
+  .links-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+
+  .links-navbar > ul {
+    width: 100%;
+    display: block;
+    line-height: 2.5;
+    text-align: center; } }
+.div-carrossel {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.conteiner-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.botoes {
+  margin-top: -200px;
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+
+.botao-antes-depois {
+  border: solid 5px white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #01008C; }
+  .botao-antes-depois .previous-next {
+    margin-top: 6px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white; }
+
+.tamanho-imagem {
+  height: 370px;
+  width: 70%;
+  object-fit: cover;
+  object-position: center; }
+
+/*# sourceMappingURL=style.css.map */

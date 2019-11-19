@@ -1,0 +1,28 @@
+@mixin btn-whats {
+    background-color: $corVerde;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@mixin display-flex($align-items, $justify-content) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin paragrafo-sobre($cor,$font-size) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-size;
+    color: $cor;
+}
+
+@mixin titulo-sobre($cor,$font-size,$background) {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-size;
+    background-color: $background;
+}
